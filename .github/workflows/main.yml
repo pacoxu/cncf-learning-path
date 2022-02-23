@@ -1,0 +1,42 @@
+name: Related GitHub Repos Status
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+  push:
+    branches:
+      - main
+
+env:
+  GITHUB_NAME: pacoxu
+  GITHUB_EMAIL: roollingstone@gmail.com
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: GitHub Repos Status
+        uses: ./
+        with:
+          WITH_STARED: false
+          TELEGRAM_TOKEN: ${{ secrets.TELE_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELE_CHAT_ID }}
+
+      - name: My GitHub Status
+        uses: pacoxu/github-repos-stats@v0.0.2
+      - name: Push README
+        uses: github-actions-x/commit@v2.6
+        with:
+          github-token: ${{ secrets.G_T }}
+          # In this example, you can also use the ${{ secrets.GITHUB_TOKEN }} variable
+          # Permissions for the GITHUB_TOKEN : https://docs.github.com/en/free-pro-team@latest/actions/reference/authentication-in-a-workflow#permissions-for-the-github_token
+
+          # If you need more precise Token permission control , you can create a personal access token and set it as a secret in your repository .
+          commit-message: "Update README (GitHub Status)"
+          files: README.md
+          rebase: "true"
+          name: ${{ env.GITHUB_NAME }}
+          email: ${{ env.GITHUB_EMAIL }}
