@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: My GitHub Status
-        uses: pacoxu/github-repos-stats@v0.0.2
+        uses: pacoxu/github-repos-stats@v0.0.3
       - name: Push README
         uses: github-actions-x/commit@v2.6
         with:
