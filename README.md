@@ -39,22 +39,22 @@ record my learning CNCF related path in issues/pull requests
 
 
 ## Skipped repos
-kubernetes/kubernetes
-envoyproxy/envoy
-prometheus/prometheus
-moby/moby
-opencontainers/runc
 torvalds/linux
+goharbor/harbor
 containerd/containerd
 istio/istio
-coredns/coredns
-projectcalico/calico
-cilium/cilium
-goharbor/harbor
-kubernetes/ingress-nginx
-flannel-io/flannel
-vmware-tanzu/velero
 helm/helm
-etcd-io/etcd
+projectcalico/calico
+kubernetes/ingress-nginx
+vmware-tanzu/velero
+prometheus/prometheus
+cilium/cilium
 knative/serving
-kubernetes-sigs/cluster-api<!--END_SECTION:github_repos-->
+kubernetes-sigs/cluster-api
+kubernetes/kubernetes
+envoyproxy/envoy
+etcd-io/etcd
+moby/moby
+coredns/coredns
+opencontainers/runc
+flannel-io/flannel<!--END_SECTION:github_repos-->
