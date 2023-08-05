@@ -2,6 +2,9 @@
     "spec": {
         "repos": {
             "kubernetes/kubernetes": "",
+            "kubernetes/kubeadm": "",
+            "kubernetes/enhancements": "",
+            "kubernetes-sigs/kwok": "",
             "containerd/containerd": "",
             "istio/istio": "",
             "envoyproxy/envoy": "",
@@ -11,13 +14,10 @@
             "coredns/coredns": "",
             "projectcalico/calico": "",
             "opencontainers/runc": "",
-            "kubernetes/ingress-nginx": "",
-            "flannel-io/flannel": "",
             "vmware-tanzu/velero": "",
             "etcd-io/etcd": "",
             "torvalds/linux": "",
             "cilium/cilium": "",
-            "knative/serving": "",
             "kubernetes-sigs/cluster-api": "",
             "goharbor/harbor": ""
         }
