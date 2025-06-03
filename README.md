@@ -32,30 +32,30 @@ record my learning CNCF related path in issues/pull requests
 
 # CNCF repositories status
 <!--START_SECTION:github_repos-->
-## The CNCF repos
-| ID |     REPO     | STARS  | UPDATEDAT  | CREATEDAT  | FORKSCOUNT |
-|----|--------------|--------|------------|------------|------------|
-|  1 | linux        | 192643 | 2025-05-01 | 2011-09-04 |      55697 |
-|  2 | kubernetes   | 114813 | 2025-05-01 | 2014-06-06 |      40479 |
-|  3 | moby         |  69652 | 2025-05-01 | 2013-01-18 |      18745 |
-|  4 | prometheus   |  58356 | 2025-05-01 | 2012-11-24 |       9535 |
-|  5 | etcd         |  49219 | 2025-05-01 | 2013-07-06 |      10059 |
-|  6 | istio        |  36824 | 2025-05-01 | 2016-11-18 |       7942 |
-|  7 | helm         |  27816 | 2025-05-01 | 2015-10-06 |       7217 |
-|  8 | envoy        |  25903 | 2025-05-01 | 2016-08-08 |       4924 |
-|  9 | harbor       |  25466 | 2025-05-01 | 2016-01-28 |       4857 |
-| 10 | cilium       |  21507 | 2025-05-01 | 2015-12-16 |       3182 |
-| 11 | containerd   |  18339 | 2025-05-01 | 2015-11-13 |       3526 |
-| 12 | coredns      |  12914 | 2025-05-01 | 2016-03-18 |       2215 |
-| 13 | runc         |  12311 | 2025-04-30 | 2015-06-05 |       2171 |
-| 14 | velero       |   9160 | 2025-05-01 | 2017-08-02 |       1434 |
-| 15 | calico       |   6392 | 2025-05-01 | 2016-07-21 |       1411 |
-| 16 | kubeadm      |   3833 | 2025-04-30 | 2016-11-22 |        714 |
-| 17 | cluster-api  |   3779 | 2025-05-01 | 2018-03-07 |       1371 |
-| 18 | enhancements |   3604 | 2025-04-30 | 2016-05-02 |       1515 |
-| 19 | kwok         |   2798 | 2025-05-01 | 2022-07-28 |        221 |
+### The DaoCloud open-source repos
+| ID |                             REPO                              | STARS  | UPDATEDAT  | CREATEDAT  | FORKSCOUNT |                                                DESCRIPTIONS                                                |
+|----|---------------------------------------------------------------|--------|------------|------------|------------|------------------------------------------------------------------------------------------------------------|
+|  1 | [linux](https://github.com/torvalds/linux)                    | 194833 | 2025-06-03 | 2011-09-04 |      56090 | Linux kernel source tree                                                                                   |
+|  2 | [kubernetes](https://github.com/kubernetes/kubernetes)        | 115481 | 2025-06-03 | 2014-06-06 |      40650 | Production-Grade Container Scheduling and Management                                                       |
+|  3 | [moby](https://github.com/moby/moby)                          |  69820 | 2025-06-03 | 2013-01-18 |      18757 | The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems |
+|  4 | [prometheus](https://github.com/prometheus/prometheus)        |  58798 | 2025-06-03 | 2012-11-24 |       9570 | The Prometheus monitoring system and time series database.                                                 |
+|  5 | [etcd](https://github.com/etcd-io/etcd)                       |  49512 | 2025-06-03 | 2013-07-06 |      10072 | Distributed reliable key-value store for the most critical data of a distributed system                    |
+|  6 | [istio](https://github.com/istio/istio)                       |  36910 | 2025-06-02 | 2016-11-18 |       7975 | Connect, secure, control, and observe services.                                                            |
+|  7 | [helm](https://github.com/helm/helm)                          |  27951 | 2025-06-03 | 2015-10-06 |       7252 | The Kubernetes Package Manager                                                                             |
+|  8 | [envoy](https://github.com/envoyproxy/envoy)                  |  26040 | 2025-06-02 | 2016-08-08 |       4949 | Cloud-native high-performance edge/middle/service proxy                                                    |
+|  9 | [harbor](https://github.com/goharbor/harbor)                  |  25664 | 2025-06-02 | 2016-01-28 |       4879 | An open source trusted cloud native registry project that stores, signs, and scans content.                |
+| 10 | [cilium](https://github.com/cilium/cilium)                    |  21732 | 2025-06-03 | 2015-12-16 |       3225 | eBPF-based Networking, Security, and Observability                                                         |
+| 11 | [containerd](https://github.com/containerd/containerd)        |  18668 | 2025-06-03 | 2015-11-13 |       3553 | An open and reliable container runtime                                                                     |
+| 12 | [coredns](https://github.com/coredns/coredns)                 |  13020 | 2025-06-02 | 2016-03-18 |       2234 | CoreDNS is a DNS server that chains plugins                                                                |
+| 13 | [runc](https://github.com/opencontainers/runc)                |  12395 | 2025-06-02 | 2015-06-05 |       2185 | CLI tool for spawning and running containers according to the OCI specification                            |
+| 14 | [velero](https://github.com/vmware-tanzu/velero)              |   9223 | 2025-06-02 | 2017-08-02 |       1437 | Backup and migrate Kubernetes applications and their persistent volumes                                    |
+| 15 | [calico](https://github.com/projectcalico/calico)             |   6490 | 2025-06-02 | 2016-07-21 |       1425 | Cloud native networking and network security                                                               |
+| 16 | [kubeadm](https://github.com/kubernetes/kubeadm)              |   3854 | 2025-06-02 | 2016-11-22 |        722 | Aggregator for issues filed against kubeadm                                                                |
+| 17 | [cluster-api](https://github.com/kubernetes-sigs/cluster-api) |   3824 | 2025-05-31 | 2018-03-07 |       1376 | Home for Cluster API, a subproject of sig-cluster-lifecycle                                                |
+| 18 | [enhancements](https://github.com/kubernetes/enhancements)    |   3649 | 2025-06-02 | 2016-05-02 |       1534 | Enhancements tracking repo for Kubernetes                                                                  |
+| 19 | [kwok](https://github.com/kubernetes-sigs/kwok)               |   2821 | 2025-06-02 | 2022-07-28 |        225 | Kubernetes WithOut Kubelet -  Simulates thousands of Nodes and Clusters.                                   |
 
 
 
-## Skipped repos
+#### Skipped repos
 <!--END_SECTION:github_repos-->
