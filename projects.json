@@ -6,20 +6,17 @@
             "kubernetes/enhancements": "",
             "kubernetes-sigs/kwok": "",
             "containerd/containerd": "",
-            "istio/istio": "",
-            "envoyproxy/envoy": "",
-            "helm/helm": "",
-            "prometheus/prometheus": "",
+            "HuaweiCloudDeveloper/cluster-api-provider-huawei": "",
+            "kubernetes/system-validators": "",
             "moby/moby": "",
             "coredns/coredns": "",
-            "projectcalico/calico": "",
             "opencontainers/runc": "",
-            "vmware-tanzu/velero": "",
             "etcd-io/etcd": "",
             "torvalds/linux": "",
-            "cilium/cilium": "",
+            "InftyAI/llmaz": "",
             "kubernetes-sigs/cluster-api": "",
-            "goharbor/harbor": ""
+            "vllm-project/vllm": "",
+            "cncf/toc": ""
         }
     },
     "status": {}
