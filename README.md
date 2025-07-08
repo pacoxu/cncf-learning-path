@@ -1,6 +1,8 @@
 # cncf-learning-path
 record my learning CNCF related path in issues/pull requests
 
+**archived: move to https://github.com/pacoxu/AI-Infra/**
+
 ## A simple summary
 - Docker
 - - Network: bridge 、 host、 overlay
